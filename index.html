@@ -38,25 +38,24 @@
 </p>
 <script>
         function doAngry() {
-            alert("FUCK");
-            alarmSoundElement = document.getElementById("angry");
+            let alarmSoundElement = document.getElementById("angry");
             alarmSoundElement.play();
+            setTimeout(() => alert("FUCK"), 7000);
         }
         function doSad() {
-            alert("You're cured!");
-            alarmSoundElement = document.getElementById("sad");
+            let alarmSoundElement = document.getElementById("sad");
             alarmSoundElement.play();
+            setTimeout(() => alert("You're cured!"), 2000);
         }
         function doRita() {
-            alert("Drink to Friends");
-            alarmSoundElement = document.getElementById("rita");
+            let alarmSoundElement = document.getElementById("rita");
             alarmSoundElement.play();
-
+            setTimeout(() => alert("Drink to Friends"), 10000);
         }
         function doLetsgo() {
-            alert(":]");
-            alarmSoundElement = document.getElementById("alright");
+            let alarmSoundElement = document.getElementById("alright");
             alarmSoundElement.play();
+            setTimeout(() => alert(":]"), 3000)
         }
 
 
